@@ -7,19 +7,77 @@
 .CV
 {
     width: 74%;
+} 
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4a4a4a;
+}
+h1
+{
+    font-weight: normal;
+}
+h2
+{
+    color : black;
+}
+#prenom
+{
+    font-weight: bold;
+    color: #feca07;
+}
+header h2 
+{
+    color: #4a4a4a;
+}
+.openC
+{
+    display: flex;
+    border: 2px solid black
+
+}
+.date_formation_open
+{
+    border: 2px solid red;
+    margin-left: 5em;
+}
+.formation_open
+{
+    border: 2px solid red;
+    margin-left: 10em;
+}
+.formation_kine
+{
+    display: flex;
+    border: 2px solid black ;
+}
+.exp
+{
+    display: flex;
+    border: 2px solid black;
 }
 nav
 {
     border: 2px solid black;
     width: 26%;
-    
+    background-color:#feca07;
+    color : #404040;
 }
-.openC
+nav h2
+{
+    background-color: #404040;
+    color : #feca07;
+    margin-top: 5em;
+}
+.photo
 {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
 }
-.formation_kine
+img
 {
-    display: flex;
+    border: 4px solid white;
+    border-radius: 50%;
 }

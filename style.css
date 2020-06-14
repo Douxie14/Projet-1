@@ -1,4 +1,25 @@
-body
+.conteneur
 {
-    color: blue;
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.CV
+{
+    width: 74%;
+}
+nav
+{
+    border: 2px solid black;
+    width: 26%;
+    
+}
+.openC
+{
+    display: flex;
+
+}
+.formation_kine
+{
+    display: flex;
 }

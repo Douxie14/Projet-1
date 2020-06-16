@@ -87,14 +87,25 @@ section h2
 .date_kine
 {
     margin-left: 5em;
+    width: 15em;
 }
 .kine
 {
-    margin-left: 10em;
+    margin-left: 5em;
 }
 .reco 
 {
     margin-left: 80px;
+}
+.droite .far
+{
+    margin-left: 2em;
+    color: #feca07;
+}
+.droite .fas
+{
+    color: #feca07;
+    margin-left: 2em;
 }
 /*--------------------------------------colonne gauche-----------------------------------------*/
 nav
@@ -132,4 +143,13 @@ img
 text-align: justify;
 width: 80%;
 margin: auto;
+}
+nav .fas
+{
+    width: 2em;
+}
+.loisirs
+{
+    display: flex;
+    justify-content: center;
 }

@@ -2,12 +2,14 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"/>
         <script src="https://kit.fontawesome.com/e86bda96b6.js" crossorigin="anonymous"></script>
         <title>Projet 1</title>
     </head>
     <body>
-        <div class="conteneur">
+        <div class="conteneur"> 
+           
             <div class="CV">
                 <header>
                     <h1><span id="prenom">Elodie</span> Rezé</h1>
@@ -18,43 +20,51 @@
                         <h2><i class="fas fa-graduation-cap fa-2x"></i><span class="titre">FORMATION</span></h2>
                             <div class="formation">
                                 <div class="info">
-                                    <div class="puce"><i class="far fa-dot-circle"></i>
-                                    </div>
-                                    <div class="date"> 2020 - 2021 <br/>
+                                    <div class= "puce_date">
+                                        <div class="puce"><i class="far fa-dot-circle"></i>
+                                        </div>
+                                        <div class="date"> 2020 - 2021 <br/>
                                              La Rochelle
+                                        </div>
                                     </div>
-                                    <div class="info_date"> 
-                                        <h3>Open classrooms</h3>
-                                            <h4>Junior Web Developper</h4>
-                                                <p>Formation initiale sur le développement de site internet</p>
-                                    </div>
+                                        <div class="info_date"> 
+                                            <h3>Open classrooms</h3>
+                                                <h4>Junior Web Developper</h4>
+                                                    <p>Formation initiale sur le développement de site internet</p>
+                                        </div> 
+                                    
                                 </div>
                                 <div class="info">
-                                    <div class="puce"><i class="fas fa-circle"></i>
-                                    </div>
-                                    <div class="date"> 2011 - 2014 <br/>
+                                    <div class= "puce_date">
+                                        <div class="puce"><i class="fas fa-circle"></i>
+                                        </div>
+                                        <div class="date"> 2011 - 2014 <br/>
                                                     Berck sur mer
+                                        </div>
                                     </div>
-                                    <div class="info_date"> 
-                                        <h3>Ecole de masseur kinésithérapique de Berck sur mer </h3>
-                                            <h4>Dîplome d'état de masseur kinésithérapeute</h4>
-                                                <p>Formation en 3 ans au métier de masseur kinésithérapeute</p>
-                                    </div>
+                                        <div class="info_date"> 
+                                            <h3>Ecole de masseur kinésithérapique de Berck sur mer </h3>
+                                                <h4>Dîplome d'état de masseur kinésithérapeute</h4>
+                                                    <p>Formation en 3 ans au métier de masseur kinésithérapeute</p>
+                                        </div>
                                 </div>
                             </div>
                     </aside>
                      <aside>
                         <h2><i class="fas fa-suitcase fa-2x"></i><span class="titre">EXPERIENCE PROFESSIONNELLE</span></h2> 
                            <div class="info"> 
-                               <div class="puce"><i class="far fa-dot-circle"></i></div>
-                                <div class="date">2011 - poste actuel<br/>
+                                <div class= "puce_date">
+                                    <div class="puce"><i class="far fa-dot-circle"></i>
+                                    </div>
+                                        <div class="date">2011 - poste actuel<br/>
                                         La Rochelle
-                                </div>
-                                 <div class="info_date"> 
-                                 <h3>Masseur kinésithérapeute</h3>
-                                    <h4>Praticienne en libérale</h4>
-                                        <p>Masseur kinésithérapeute en libéral à Chatelaillon-plage, proche la Rochelle</p>
-                                </div> 
+                                        </div>
+                                    </div>
+                                    <div class="info_date"> 
+                                        <h3>Masseur kinésithérapeute</h3>
+                                            <h4>Praticienne en libérale</h4>
+                                                <p>Masseur kinésithérapeute en libéral à Chatelaillon-plage, proche la Rochelle</p>
+                                    </div> 
                             </div>
                     </aside>
                     <aside>
@@ -80,7 +90,7 @@
                             14 rue des Doudes</p>
                         <p>Numéro de téléphone<br/>
                             06 14 14 14 14</p> 
-                        <p>Email<br/>
+                        <p class="email">Email<br/>
                             elodie.reze@gdoude.com</p>
                     </div>
                 <h2>A PROPOS DE MOI</h2>
@@ -88,9 +98,15 @@
             <div class="loisir">        
                 <h2>LOISIRS</h2>
                 <div class="loisirs">
-                <i class="fas fa-paw fa-2x"></i>
-                <i class="fas fa-hamburger fa-2x"></i>
-                <i class="fas fa-plane fa-2x"></i>
+                    <span class="fa-stack fa-2x" style="vertical-align: top;">
+                        <i class="far fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-paw fa-stack-1x"></i></span>     
+                    <span class="fa-stack fa-2x" style="vertical-align: top;">
+                        <i class="far fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-hamburger fa-stack-1x"></i></span>
+                    <span class="fa-stack fa-2x" style="vertical-align: top;">
+                        <i class="far fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-plane fa-stack-1x"></i></span>
                 </div>
             </div>
         </nav> 

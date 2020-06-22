@@ -59,15 +59,17 @@ section h2
 {
     margin-top: 0em;
 }
-.info
+.puce_date
 {
     display: flex;
+    margin-left: 7.5%;
+    flex: 1;
 }
 .date
 {
-    margin-left: 2%;
+    margin-left: 20%;
     display: flex;
-    flex: 1;
+   
 }
 .info_date
 {
@@ -76,7 +78,10 @@ section h2
     flex-direction: column;
     margin: 0px 0px 40px 0px;
 }
-
+.info
+{
+    display: flex;
+}
 .droite .far
 {
     color: #feca07;
@@ -88,7 +93,7 @@ section h2
 }
 .puce
 {
-    margin-left: 9%;
+ 
 }
 .info h3
 {
@@ -131,7 +136,6 @@ nav h2
     background-color: #404040;
     color : #feca07;
     margin: 60px 0px 30px 0px;
-    
     text-align: center;
 }
 .photo
@@ -148,25 +152,73 @@ img
 }
 .contact
 {
-    padding-left: 34.5px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
 }
 .moi 
 {
-text-align: justify;
-width: 80%;
-margin: auto;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
 }
-nav .fas
-{
-    padding-right: 10px;
-    padding-left: 10px;
-}
+
 .loisir
 {
- margin-top: 250px;
+    margin-top: 250px;
 }
 .loisirs
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+.email
+{
+    word-wrap: break-word;
+}
+/*---------------------RESPONSIVE------------------------------*/
+
+@media all and (max-width : 850px)
+{
+    img
+    {
+        width: 80%;
+    }
+}
+@media all and (max-width : 950px)
+{
+    .info
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .info_date
+    {
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .date
+    {
+        margin-left: 4%;
+    }
+    .puce_date
+    {
+        margin-left: 4%;
+    }
+}
+@media all and (max-width : 760px)
+{
+    .conteneur
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    nav
+    {
+        width: 100%;
+    }
+    .CV
+    {
+        width: 100%;
+    }
 }
